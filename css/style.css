@@ -1,3 +1,7 @@
+*:focus{
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
 .site-header{
   background-color: #FFFFFF;
   display: flex;
@@ -12,8 +16,17 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-
 }
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+.logo-link:hover{
+  opacity: 0.8;
+}
+.logo-link:active{
+  opacity: 0.6;
+}
+
 .site-nav{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -23,7 +36,13 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
-
+  transition: color 0.4s ease,opacity 0.4s ease;
+}
+.site-nav:hover{
+  color: #FF7500;
+}
+.site-nav:active{
+  opacity: 0.6;
 }
 .first-back{
   background-color: #252420;
@@ -71,6 +90,13 @@
   background:#FF7500;
   color: #FFFFFF;
   text-decoration: none;
+  transition: opasity 0.4s ease;
+}
+.txt-buyurtma:hover{
+  opacity: 0.8;
+}
+.txt-buyurtma:active{
+  opacity: 0.6;
 }
 .txt-savol{
   font-style: normal;
@@ -144,6 +170,13 @@
   line-height: 19px;
   color: #252420;
   text-decoration: none;
+  transition: opasity 0.4s ease;
+}
+.txt-last:hover{
+  color: #FF7500;
+}
+.txt-last:active{
+  opacity: 0.6;
 }
 .footer-hr{
   width: 1100px;
@@ -151,6 +184,9 @@
   background-color: rgba(37, 36, 32, 0.5);
 }
 ul a {
+  list-style-type: none;
+}
+.oxirgi-list{
   list-style-type: none;
 }
 .the-end-list{
@@ -164,6 +200,15 @@ ul a {
   list-style-type: none;
   display: flex;
   justify-content: space-between
+}
+.end-list a:hover{
+  color: #FF7500;
+}
+.end-list a{
+  color: #252420;
+}
+.end-list a:active{
+  opacity: 0.6;
 }
 .footer-img-list{
   display: flex;

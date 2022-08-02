@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 5px solid #FF7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .site-header-actions{
   display: flex;
@@ -16,6 +19,7 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 .logo-link{
   transition: opacity 0.4s ease;
@@ -50,6 +54,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .main-content{
   width: 390px;
@@ -65,6 +71,7 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  padding: 0;
 }
 .txt-ikki{
   line-height: 150%;
@@ -74,10 +81,12 @@
 .hero-img{
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 .hero-hr{
   width: 80px;
   height: 3px;
+  border: none;
   background-color:  #FF7500;;
 
 }
@@ -91,6 +100,10 @@
   color: #FFFFFF;
   text-decoration: none;
   transition: opasity 0.4s ease;
+  border-radius: 4px;
+  padding: 12px 24px;
+  display: inline-block;
+  font-weight: bold;
 }
 .txt-buyurtma:hover{
   opacity: 0.8;
@@ -107,10 +120,18 @@
   letter-spacing: 0.5px;
   color: black;
 }
+.features-main{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 .feature-icon-wrapper{
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .feature{
@@ -132,12 +153,14 @@
 }
 .promo-content{
   width: 440px;
-}
+  padding-top: 64px;
+  padding-bottom: 64px;}
 .second-back{
   background: #252420;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 12px;
 }
 .promo-highlite{
   color: #FF7500;
@@ -160,9 +183,12 @@
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 .site-footer{
   background: #F8F8F8;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
 .txt-last{
@@ -182,12 +208,14 @@
   width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+  border: 0;
 }
 ul a {
   list-style-type: none;
 }
 .oxirgi-list{
   list-style-type: none;
+  padding: 0;
 }
 .the-end-list{
   list-style-type: none;
@@ -199,7 +227,8 @@ ul a {
 .end-list{
   list-style-type: none;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  padding: 0;
 }
 .end-list a:hover{
   color: #FF7500;
@@ -214,6 +243,7 @@ ul a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 
 }
 

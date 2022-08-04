@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,10 +20,10 @@
       <div class="site-header-actions">
         <nav>
           <ul class="footer-list">
-            <li><a class="site-nav" href="index.html">Bosh sahifa</a></li>
-            <li><a class="site-nav" href="#">Kitoblar</a></li>
-            <li><a class="site-nav" href="#">Aksiyalar</a></li>
-            <li><a class="site-nav" href="#">Kontaktlar</a></li>
+            <li class="sitenav-item"><a class="site-nav" href="index.html">Bosh sahifa</a></li>
+            <li class="sitenav-item"><a class="site-nav" href="#">Kitoblar</a></li>
+            <li class="sitenav-item"><a class="site-nav" href="#">Aksiyalar</a></li>
+            <li class="sitenav-item"><a class="site-nav" href="#">Kontaktlar</a></li>
           </ul>
         </nav>
         <a class="txt-buyurtma" href="#">Ro'yhatdan o'tish</a>
@@ -68,11 +69,13 @@
       <section class="second-back">
         <div class="promo-content">
           <h2 class="third-sec">Bolalar kitoblari uchun<br>ajoyib aksiya!</h2>
-          <p class="txt-third-p">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-          <p class="txt-third-p">Aksiyadagi eng katta to’plamda <strong class="promo-highlite
-            promo-highlite" >50 ta kitob</strong>ni <strong class="promo-highlite
-            promo-highlite" >350 ming so’m</strong>ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-            <a href="#" class="txt-buyurtma">Buyurtma berish</a>
+          <div class="promo-info-wrapper">
+            <p class="txt-third-p">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+            <p class="txt-third-p">Aksiyadagi eng katta to’plamda <strong class="promo-highlite
+              promo-highlite" >50 ta kitob</strong>ni <strong class="promo-highlite
+              promo-highlite" >350 ming so’m</strong>ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+          </div>
+          <a href="#" class="txt-buyurtma">Buyurtma berish</a>
           </div>
           <img class="img-book" src="img/sale-img.jpg" alt="Books" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
         </section>
